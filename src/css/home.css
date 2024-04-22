@@ -1,0 +1,29 @@
+input {
+  transition: none;
+
+  &:focus-within {
+    outline: rem(2px) solid var(--mantine-color-blue-filled);
+    border-color: #3366ff;
+  }
+}
+
+table th {
+  font-weight: bold !important;
+  text-align: center;
+}
+
+table td {
+  vertical-align: middle !important;
+}
+
+.m_92253aa5:where([data-combobox-selected]) {
+  background-color: #3366ff !important;
+  color: var(--mantine-color-white);
+}
+
+table td:nth-child(1),
+table td:nth-child(2),
+table td:nth-child(3),
+table td:nth-child(5) {
+  text-align: center;
+}
